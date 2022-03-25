@@ -20,9 +20,9 @@ import java.util.Scanner;
 public class Lecture7Homework4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a;
-        int b;
-        int c;
+        int x;
+        int y;
+        int z;
         System.out.println("Please enter the first vertex: ");
         a = scanner.nextByte();
         System.out.println("Please enter the second vertex: ");
@@ -30,9 +30,9 @@ public class Lecture7Homework4 {
         System.out.println("Please enter the third vertex: ");
         c = scanner.nextInt();
 
-        if ((a == b) && (b == c)) {
+        if ((x == y) && (y == z)) {
             System.out.println("The triangle is equilateral.");
-        } else if ((a == b) || (b == c) || (a == c)) {
+        } else if ((x == y) || (y == z) || (x == z)) {
             System.out.println("The triangle is isosceles.");
         } else {
             System.out.println("The triangle is scalene");

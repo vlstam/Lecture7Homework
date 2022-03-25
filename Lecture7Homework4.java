@@ -24,11 +24,11 @@ public class Lecture7Homework4 {
         int y;
         int z;
         System.out.println("Please enter the first vertex: ");
-        a = scanner.nextByte();
+        z = scanner.nextByte();
         System.out.println("Please enter the second vertex: ");
-        b = scanner.nextInt();
+        x = scanner.nextInt();
         System.out.println("Please enter the third vertex: ");
-        c = scanner.nextInt();
+        y = scanner.nextInt();
 
         if ((x == y) && (y == z)) {
             System.out.println("The triangle is equilateral.");
